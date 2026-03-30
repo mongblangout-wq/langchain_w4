@@ -59,10 +59,11 @@ streamlit run app.py
  ┗ 📜 README.md          # 프로젝트 설명 문서
 ```
 
-💡 배운 점 (Lessons Learned)
-LCEL(LangChain Expression Language) 활용: Prompt | LLM | OutputParser 형태의 직관적인 체인 구성을 통해 LLM 애플리케이션의 데이터 흐름을 설계하는 방법을 익혔습니다.
+## 💡 배운 점 (Lessons Learned)
 
-상태 관리(State Management): 웹 환경에서 사용자의 입력 및 모델의 응답 데이터를 휘발시키지 않고 세션에 저장하여(session_state) RAG 및 메모리 기능의 기초를 다졌습니다.
+1. LCEL(LangChain Expression Language) 활용: Prompt | LLM | OutputParser 형태의 직관적인 체인 구성을 통해 LLM 애플리케이션의 데이터 흐름을 설계하는 방법을 익혔습니다.
 
-프롬프트 엔지니어링: 모델의 자유도를 제어하고 원하는 형식(길이, 톤앤매너)으로 출력을 제한하는 방법을 실습했습니다.
+2. 상태 관리(State Management): 웹 환경에서 사용자의 입력 및 모델의 응답 데이터를 휘발시키지 않고 세션에 저장하여(session_state) RAG 및 메모리 기능의 기초를 다졌습니다.
+
+3. 프롬프트 엔지니어링: 모델의 자유도를 제어하고 원하는 형식(길이, 톤앤매너)으로 출력을 제한하는 방법을 실습했습니다.
 
